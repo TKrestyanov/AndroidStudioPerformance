@@ -32,24 +32,24 @@ org.gradle.unsafe.watch-fs=true
 
 # Now, disable or Check Off all the plugins which not usable for you. I have disabled following:
 
-Android APK Support
-Android Games
-Android NDK
-App Links Assistant
-Copyright
-Coverage
-CVS Integeration
-Editor Config
-Fabric for Android Studio
-Firebase (App Indexing, Services, Testing)
-Github
-Google (Cloud Tools Core, Cloud Tools for Android, Developer Samples, Login, Services)
-Markdown Support
-Mercurial integration
-hg4idea
-Settings repository
-Subversion integration
-Task management
-Test recorder
-TestNG-J
-YAML
+* Android APK Support
+* Android Games
+* Android NDK
+* App Links Assistant
+* Copyright
+* Coverage
+* CVS Integeration
+* Editor Config
+* Fabric for Android Studio
+* Firebase (App Indexing, Services, Testing)
+* Github
+* Google (Cloud Tools Core, Cloud Tools for Android, Developer Samples, Login, Services)
+* Markdown Support
+* Mercurial integration
+* hg4idea
+* Settings repository
+* Subversion integration
+* Task management
+* Test recorder
+* TestNG-J
+* YAML
