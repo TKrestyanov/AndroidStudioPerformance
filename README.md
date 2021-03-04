@@ -2,29 +2,29 @@
 
 
 # VM options
--server
--Xms1024m
--Xmx4096m
--XX:MetaspaceSize=512m
--XX:MaxPermSize=1024m
--XX:ReservedCodeCacheSize=256m
--XX:+UseCompressedOops
+* -server
+* -Xms1024m
+* -Xmx4096m
+* -XX:MetaspaceSize=512m
+* -XX:MaxPermSize=1024m
+* -XX:ReservedCodeCacheSize=256m
+* -XX:+UseCompressedOops
 
 
 
 
 # gradle.properties
 
-org.gradle.jvmargs=-Xmx2048m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -XX:+UseParallelGC 
-android.useAndroidX=true
-kotlin.code.style=official
-org.gradle.daemon=true
-org.gradle.parallel=true
-org.gradle.configureondemand=true
-org.gradle.caching=true
-kapt.use.worker.api=true
-room.incremental=true
-org.gradle.unsafe.watch-fs=true
+* org.gradle.jvmargs=-Xmx2048m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -XX:+UseParallelGC 
+* android.useAndroidX=true
+* kotlin.code.style=official
+* org.gradle.daemon=true
+* org.gradle.parallel=true
+* org.gradle.configureondemand=true
+* org.gradle.caching=true
+* kapt.use.worker.api=true
+* room.incremental=true
+* org.gradle.unsafe.watch-fs=true
 
 
 
